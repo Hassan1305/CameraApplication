@@ -2,7 +2,7 @@
 
 This is an example integeration of package ***react-native-vision-camera***
 
-##Issue
+## Issue
 
 When using cli based project, the application fails to build the reason of that is different versions of ***kotlin-gradle-plugin***
 To solve navigate to file ***build.gradle*** of the ***react-native-vision-camera*** package, which is typically located at ***node_modules/react-native-vision-camera/android*** directory of your project
