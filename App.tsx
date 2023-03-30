@@ -24,7 +24,7 @@ function App(): JSX.Element {
   const device = devices.back
   const camera = useRef<Camera>(null)
 
-  const [showCamera, setshowCamera] = useState(false)
+  const [showCamera, setshowCamera] = useState(true)
   const [imageSource, setimageSource] = useState('')
 
   useEffect(() => {
