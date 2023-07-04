@@ -8,13 +8,13 @@ When using cli based project, the application fails to build the reason of that 
 To solve navigate to file ***build.gradle*** of the ***react-native-vision-camera*** package, which is typically located at ***node_modules/react-native-vision-camera/android*** directory of your project
 Find the line where the kotlin-gradle-plugin is declared. It should look something like this:
 ```
-classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version
+classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
 ```
 
 
 Replace ***$kotlin_version*** with the required version, which is 1.6.20 or higher, like so:
 ```
-classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.6.20
+classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.6.20"
 ```
 
 
